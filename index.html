@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="secao-entrada">
+            <h1>Digite seu texto</h1>
+            <textarea id="campo-texto" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+            <div class="botoes">
+                <button class="btn btn-criptografar">Criptografar</button>
+                <button class="btn btn-descriptografar">Descriptografar</button>
+            </div>
+            <p class="nota">Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="secao-saida">
+            <img src="/images/diamante.svg" alt="Imagem de diamante sendo inspecionado">
+            <div class="campo-resultado">
+                <p class="mensagem-saida">Nenhuma mensagem encontrada</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
